@@ -14,6 +14,10 @@
     transition: transform 1s, opacity 1s;
 }
 
+.header-menu__item {
+    margin: 0;
+}
+
 .hamburger__menu.active {
     position: fixed;
     z-index: 11;
@@ -71,4 +75,52 @@
 
 .header__slogan {
     margin-top: 0;
+}
+
+/* About section */
+.about {
+    padding: 30px 0;
+}
+
+.about__title {
+    text-align: center;
+}
+
+.about-wrap {
+    justify-content: center;
+}
+
+.about__left, .about__right {
+    width: 100%;
+    margin: 0;
+}
+
+.about__right_img {
+    margin: 0 auto;
+    width: 270px;
+    height: 270px;
+}
+
+.about__list--item-wrap {
+    flex-wrap: wrap;
+    margin: 65px 0;
+}
+
+.about__list--item::before {
+    left: 50%;
+    transform: translate(-50%, -110%);
+}
+
+.list-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list-icon {
+    margin: 0 auto;
+}
+
+.about__list {
+    margin: 0;
 }
