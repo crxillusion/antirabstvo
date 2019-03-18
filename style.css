@@ -103,6 +103,10 @@ a {
     width: 30px;
 }
 
+.hamburger__menu {
+    display: none;
+}
+
 /* About section */
 
 .about {
