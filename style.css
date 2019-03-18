@@ -102,13 +102,13 @@ a {
 /* About section */
 
 .about {
-    padding-top: 80px;
+    padding: 80px 0;
     background: #f1f1f1;
 }
 
 .about-wrap {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: flex-start;
 }
 
@@ -167,4 +167,24 @@ a {
     color: #c5c5c5;
     position: absolute;
     left: -30px;
+}
+
+.about__right_img {
+    border-radius: 100%;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.about__right_img--image {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.about__right {
+    margin-left: 60px;
 }
